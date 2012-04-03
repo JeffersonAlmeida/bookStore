@@ -13,12 +13,14 @@
                   
 	</head>
 	<body>
-                                      <br> <g:jasperReport
+                                    <!--<br> <g:jasperReport
                                         jasper="sample-jasper-plugin"
                                         format="PDF,HTML,XML"
                                         buttonPosition="below"
                                         name="">
-                                    </g:jasperReport></br>
+                                    </g:jasperReport></br> -->
+                                    
+                                  <br>  <g:jasperReport jasper="all-authors" format="PDF" name="All Authors" /> </br><br></br>
                                     
 		<a href="#list-author" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div class="nav" role="navigation">

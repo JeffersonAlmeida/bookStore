@@ -20,7 +20,8 @@
                                         name="">
                                     </g:jasperReport></br> -->
                                     
-                                  <br>  <g:jasperReport jasper="all-authors" format="PDF" name="All Authors" /> </br><br></br>
+                                  <br>    <g:jasperReport jasper="relatorioBookStore"  format="PDF,HTML,XML" name="export" /> </br><br>
+                                 
                                     
 		<a href="#list-author" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div class="nav" role="navigation">

@@ -8,4 +8,5 @@ class Author {
     }   
     static hasMany = [books: Book]
     
+    
 }
